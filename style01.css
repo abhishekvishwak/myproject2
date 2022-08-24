@@ -1,0 +1,153 @@
+
+
+body {
+    background: #f3efea;
+
+}
+
+header {
+    height: 500px;
+    background:rgb(51, 103, 124);
+
+}
+nav {
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+.nav-item {
+    margin-right: 20px;
+    color: white;
+}
+.nav-item-active {
+    background:#ffff;
+    padding: 5px;
+    margin-top: 120px;
+    border-radius: 6px;
+    color: #5a31fc;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.logo{
+    margin: 20px;
+
+}
+.header-text{
+    color: #ffff;
+    margin-left: 60px;
+    float: left;
+    margin-top: 50px;
+}
+.header-image{
+    float: right;
+}
+.companies{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.company-items{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.api-heading{
+    font-weight: 800;
+    margin-left: 90px;
+    margin-top: 100px;
+    font-style: bold;
+
+}
+.cards{
+margin-left: 90px;
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+
+}
+.card{
+    width: 20%;
+    height: 250px;
+    background:white;
+    margin-right: 30px;
+}
+.card-active{
+    width: 20%;
+    height: 250px;
+    background:tranparent;
+    margin-right: 30px;
+    box-shadow:0px 5px 15px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card{
+    width: 20%;
+    height: 250px;
+    background:tranparent;
+    margin-right: 30px;
+    box-shadow:0px 5px 15px black;
+    padding: 10px;
+    border-radius: 10px
+}
+.card-logo{
+    margin-left:30px ;
+    margin-top: 30px;
+}
+.card-head-active{
+    color: black;
+    margin-left: 30px;
+
+
+}
+.card-body{
+    color: black;
+    margin-left: 5px;
+    font-size:12px;
+    
+}
+.blog-heading{
+    margin-left: 90px;
+
+}
+.blog-cards{
+    margin-left:60px;
+    display: flex;
+    flex-direction: row;
+        
+}
+.blog-card{
+/* height: 250px;
+width: 40%; */
+margin-left: 30px;
+
+}
+.blog-contant{
+margin-left: 40px;
+height: 250px;
+width: 30%;
+}
+.faq-section{
+    margin-left: 90px;
+    margin-top: 40px;
+    
+}
+.faq-contant,h2{
+font-size:30px;
+}
+.faq-contant,button{
+    background: #81b7f5;
+    border-radius: 6px;
+}
+.download-section{
+    margin-left: 90px;
+}
+.footer-section{
+    margin-left: 60px;
+}
+.footer-logos{
+    margin-left: 20px;
+    height: auto;
+    width:auto;                                            
+
+}
